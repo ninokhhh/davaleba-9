@@ -148,3 +148,54 @@ body {
   gap: 30px;
   justify-content: space-between;
 }
+@media (max-width: 992px) {
+  .service-card {
+    width: calc(50% - 15px);
+  }
+
+  .hero-text {
+    font-size: 48px;
+  }
+
+  .hero-subtext {
+    font-size: 16px;
+  }
+
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .services-right {
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .service-card {
+    width: 100%;
+  }
+
+  .hero-text {
+    font-size: 36px;
+  }
+
+  .hero-subtext {
+    font-size: 14px;
+  }
+
+  .nav-bar ul {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+  }
+
+  .nav-link {
+    font-size: 15px;
+  }
+}
